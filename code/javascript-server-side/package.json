@@ -1,0 +1,26 @@
+{  
+  "name": "ojo-server-side-examples",
+  "description": "OJO Server Side Example",
+  "version": "0.1.0",
+  "license" : "Apache-2.0",
+  "private": false,
+  "main": "server.js",
+  "author": {
+    "name": "Patrice G. Cappelaere",
+    "email": "pat@cappelaere.com"
+  },
+  "dependencies": {
+    "hawk": "*",
+	"fbgraph": "*",
+	"request": "*"
+  },
+  "maintainers": [
+    "Pat Cappelaere <pat@cappelaere.com>"
+  ],
+    "scripts": {
+      "start": "node example.js"
+    },
+    "engines": {
+      "node": ">= 0.10.28"
+    }
+}
